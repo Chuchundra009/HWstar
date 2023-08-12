@@ -1,0 +1,47 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 80vh;
+}
+
+.main__title {
+    height: 20%;
+}
+
+.main__img {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.pict {
+    width: 300px;
+}
+
+.main__magic {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__magic-btn {
+    background-color: rgb(36, 35, 35);
+    color: azure;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.main__magic-btn:hover {
+    background-color: blue;
+}
+
+.main__magic-text {
+    text-transform: uppercase;
+    font-weight: 600;
+}
